@@ -16,7 +16,7 @@ export default function Home() {
                     instituciones públicas y privadas.
               </p>
             </div>
-            <Image src='/img/personal_quatcom.webp' width={ 18012 }  height={ 504 } />
+            <Image src='/img/personal_quatcom.webp' width={ 18012 }  height={ 504 } alt="personal"/>
             <div className='contenedor'>
               <p>
                           Nos hemos caracterizado por ser una empresa que se distingue de las demás por

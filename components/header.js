@@ -12,26 +12,7 @@ const Header = () => {
         <div className={`contenedor ${styles.barra}`}>
             
             <nav className={styles.navegacion}>
-                <Link href="/">
-                    <a className={ router.pathname === '/' ? styles.active : '' }>
-                        Inicio
-                    </a>
-                </Link>
-                <Link href="/nosotros">
-                    <a className={ router.pathname === '/nosotros' ? styles.active : '' }>
-                        Nosotros
-                    </a>
-                </Link>
-                <Link href="/servicios">
-                    <a className={ router.pathname === '/servicios' ? styles.active : '' }>
-                        Servicios
-                    </a>
-                </Link>
-                <Link href="/contacto">
-                    <a className={ router.pathname === '/contacto' ? styles.active : '' }>
-                        Contacto
-                    </a>
-                </Link>
+                
             </nav>
             <Link href="/">
                 <a>
