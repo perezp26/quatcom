@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary: #1f28b5;
   --black: #59c0fb;

@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import styles from '../styles/nosotros.module.css'
 const Nosotros = () => {
   return (
-        <Layout title={'Nosotros'}>
+        <Layout titulo={'Nosotros'}>
             <main>
                     <h2 className="heading">Nosotros</h2>
                     <div className="contenedor">

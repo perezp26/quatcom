@@ -10,12 +10,22 @@ const Header = () => {
   return (
     <header className={ styles.header }>
         <div className={`contenedor ${styles.barra}`}>
-            
             <nav className={styles.navegacion}>
-                
+                <Link href="/">
+                    Inicio
+                </Link>
+                <Link href="/nosotros">
+                    Nosotros
+                </Link>
+                <Link href="/servicios">
+                    Servicios
+                </Link>
+                <Link href="/contacto">
+                  Contacto
+                </Link>
             </nav>
             <Link href="/">
-                <a>
+                <a className='mt-10'>
                     <Image src="/img/logoQuatcom.png" width={300} height={200} alt='logotipo'/>
                 </a>
             </Link>
