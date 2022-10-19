@@ -7,7 +7,7 @@ import styles from '../styles/nosotros.module.css'
 const Nosotros = () => {
   return (
         <Layout titulo={'Nosotros'}>
-            <main>
+            <main className='animate__animated animate__fadeIn'>
                     <h2 className="heading">Nosotros</h2>
                     <div className="contenedor">
                         <div>

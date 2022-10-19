@@ -36,7 +36,7 @@ img {
   text-align: center;
   font-weight: 900;
   color: var(--primary);
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 
 [class*="subtitle"]{

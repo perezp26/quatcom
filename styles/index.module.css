@@ -1,0 +1,6 @@
+.nuestrosservicios{
+    background-image: linear-gradient(to right, rgb(89 192 251 / .8), rgb(89 192 251 / .9)), url(../public/img/mision3.webp);
+    padding: 2rem 0;
+    background-position: center;
+    background-size: cover;
+}
