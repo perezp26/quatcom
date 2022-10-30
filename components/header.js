@@ -8,9 +8,10 @@ const Header = () => {
     const router = useRouter();
 
   return (
-    <header className={ styles.header }>
-        <div className={`contenedor ${styles.barra}`}>
-            <nav className={styles.navegacion}>
+    <header className={ `relative ${ styles.header} ` }>
+            <Image src='/img/bannerQuatcom.jpg' width={ 2500 }  height={ 600 } alt="quatcom" className=' mx-auto ' />
+        <div className={` ${styles.barra} md:absolute md:bottom-7 md:left-20 `}>
+            <nav className={`${styles.navegacion}`}>
                 <Link href="/">
                     Inicio
                 </Link>
@@ -20,15 +21,16 @@ const Header = () => {
                 <Link href="/servicios">
                     Servicios
                 </Link>
+                <Link href="/herramientasequipo">
+                    Herramientas y Equipo
+                </Link>
+                <Link href="/clientes">
+                    Clientes
+                </Link>
                 <Link href="/contacto">
                   Contacto
                 </Link>
             </nav>
-            <Link href="/">
-                <a className='mt-10'>
-                    <Image src="/img/logoQuatcom.png" width={300} height={200} alt='logotipo'/>
-                </a>
-            </Link>
 
         </div>
     </header>
