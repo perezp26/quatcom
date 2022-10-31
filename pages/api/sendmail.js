@@ -1,6 +1,6 @@
 const mail = require('@sendgrid/mail');
 
-const SENDGRID_API_KEY = process.env.NEXT_PUBLIC_SENDGRID_API_KEY
+const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY
 
 export default ( req, res) => {
 
