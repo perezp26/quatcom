@@ -1,10 +1,11 @@
 const mail = require('@sendgrid/mail');
 
+const SENDGRID_API_KEY = process.env.NEXT_PUBLIC_SENDGRID_API_KEY
 
 export default ( req, res) => {
 
-    mail.setApiKey(body.apiKey);
     const body = JSON.parse(req.body);
+    mail.setApiKey(SENDGRID_API_KEY);
 
     try {
         const message =`

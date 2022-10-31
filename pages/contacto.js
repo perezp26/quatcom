@@ -4,9 +4,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { UseForm } from '../hooks/UseForm'
 import Link from 'next/link'
 
-
-const RECAPTCHA_SITE_KEY = process.env.RECAPTCHA_SITE_KEY
-const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY
+const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY
 
 const Contacto = () => {
 
@@ -21,7 +19,7 @@ const Contacto = () => {
     const { nombre, email, message } = valuesForm;
 
     const onChange = () => {
-        console.log(refCaptcha.current.getValue());
+        //console.log(refCaptcha.current.getValue());
     }
 
     const handelOnSubmit = async(e) => {
@@ -35,7 +33,7 @@ const Contacto = () => {
             setStatuEnviando(true); 
             const result = await fetch('api/sendmail',{
                                 method:'POST',
-                                body: JSON.stringify({...valuesForm, apiKey : SENDGRID_API_KEY} ),
+                                body: JSON.stringify( valuesForm ),
                             });
 
             const resp = await result.json();
