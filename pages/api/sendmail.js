@@ -15,7 +15,7 @@ export default ( req, res) => {
     `
 
     const data = {
-        to: 'ing.perez26@gmail.com',
+        to: 'obroca@quatcom.com.mx',
         from: 'contacto@quatcom.com.mx',
         subject:'Envió dedes la pagina de quatcom.com.mx',
         text: message,
@@ -27,7 +27,7 @@ export default ( req, res) => {
         if(success) console.log(success.response.body);
         else console.log(err);
 
-        res.status(200).json({ status:'ok', success : success, error : err)
+        res.status(200).json({ status:'ok', success : success, error : err})
     });
 
     //res.status(200).json({ status:'ok',  })
