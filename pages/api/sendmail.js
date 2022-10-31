@@ -27,7 +27,7 @@ export default ( req, res) => {
         if(success) console.log(success.response.body);
         else console.log(err);
 
-        res.status(200).json({ status:'ok', success : success, error : err })
+        res.status(200).json({ status:'ok', success : success, error : err, apiKey :  SENDGRID_API_KEY})
     });
 
     //res.status(200).json({ status:'ok',  })
