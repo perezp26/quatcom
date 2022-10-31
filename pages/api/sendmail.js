@@ -24,13 +24,13 @@ export default ( req, res) => {
 
  
     mail.send(data, (success, err) =>{
-        console.log(success);
-        if(success) 
-            console.log(success.response.body);
+        if(success) console.log(success.response.body);
         else console.log(err);
+
+        res.status(200).json({ status:'ok', success : success.response.body, error : err })
     });
 
-    res.status(200).json({ status:'ok' })
+    //res.status(200).json({ status:'ok',  })
 
     } catch (error) {
         res.status(500).json( { status: 'error' });
