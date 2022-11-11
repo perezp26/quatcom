@@ -8,34 +8,26 @@ export default function Home() {
     <>
       <Layout titulo={'Inicio'} description={'Mantenimiento aries acondicionados, Estudios Energeticos, Subestaciones, calbeado estructurado, fibra optica'}>
           <main className='animate__animated animate__fadeIn'>
-          <div className='text-white md:py-24'  style={{ backgroundColor: '#1089d2'}}>
+          <div className='text-white md:pb-24 md:pt-16'  style={{ backgroundColor: '#1089d2'}}>
                 <div className=' container mx-auto' >
-                    <p className=' text-justify font-extralight text-5xl py-12 px-7'>
-                            QUATCOM es una empresa yucateca que nace de la necesidad de realizar
-                            soluciones integrales de redes para voz, datos, imagen y seguridad. Así como
-                            instalación y mantenimiento a conmutadores telefónicos Voz/IP para
-                            instituciones públicas y privadas.
+                    <p className='text-center font-extrabold text-6xl'>TELECOMUNICACIONES</p>
+                    <p className=' text-justify text-5xl py-12 px-7 font-bold'>
+                          QUATCOM EN UNA EMPRESA MEXICANA Y YUCATECA QUE SE CARACTERIZA POR
+                          OFRECER SOLUCIONES INTEGRALES EN TELECOMUNICACIONES A SUS CLIENTES.
+                          CONSTRUIMOS LOS PRICIPALES MEDIOS DE COMUNICACIÓN, FIBRA OPTICA,
+                          CABLEADO ESTRUCTURADO, WIFI Y MIDROONDAS, ASI COMO LA INFRAESTRUCTURA
+                          NECESARIA PARA SU CORRECTA INSTALACION.
+                          
                     </p>
                     </div>
                 
                     <div className='container mx-auto '>
-                        <p className=' text-justify font-extralight text-5xl px-7'>
-                                    Nos hemos caracterizado por ser una empresa que se distingue de las demás por
-                                    llevar a cabo servicios de calidad y con una eficiencia comprobada. Esto se logra
-                                    con base en nuestros 3 pilares fundamentales:
+                        <p className=' text-justify text-5xl px-7 font-bold'>
+                          EL DOMINIO EN LA ADMINISTRACION DE PROYECTOS Y MAS DE 20 AÑOS DE
+                          EXPERIECIA EN TELECOMUNICACIONES, SON NUESTROS PRINCIPALES PILARES.
+                          MAS DE 20,000 KM DE FIBRA OPTICA INSTALADA NOS RESPALDAN.
                                     
                         </p>
-                        <div className="md:flex text-5xl pb-16">
-                            <div className=" md:w-1/3 mt-10 text-center">
-                                Operar con técnicos calificados
-                            </div>
-                            <div className=' md:w-1/3 mt-10 text-center'>
-                                Mantenernos en constante capacitación
-                            </div>
-                            <div className=' md:w-1/3 mt-10 text-center'>
-                                Herramientas de última generación.
-                            </div>
-                        </div>
                 </div>
           </div>
             
