@@ -7,25 +7,6 @@ const HerramientasEquipo = () => {
         <main className='animate__animated animate__fadeIn'>
           <h2 className="heading">Heramientas y Equipo</h2>
         </main>
-
-        <div className='md:flex'>
-                    <div className='md:w-1/3 text-center'>
-                            <Image src='/img/megguer.png' width={ 320 }  height={ 450 } alt="megguer" className=' mx-auto' />
-                            <p className=' text-blue-900 font-semibold text-5xl' > Megguer </p>
-                            <p className='px-3'> Prueba de resistencia de aislamiento de cable de potencia</p>
-                    </div>
-                    <div className='md:w-1/3 text-center'>
-                            <Image src='/img/terrometro.png' width={ 280 }  height={ 450 } alt="terrometro" className='mx-auto'/>
-                            <p className=' text-blue-900 font-semibold text-5xl' > Megguer de resistencia a Tierra </p>
-                            <p className='px-3'> Medición de resistencia a tierra con historial de Datos</p>
-                    </div>
-
-                    <div className='md:w-1/3 text-center'>
-                            <Image src='/img/camaratermo.png' width={ 255 }  height={ 450 } alt="camara termografica" className='mx-auto'/>
-                            <p className=' text-blue-900 font-semibold text-5xl' > Cámara Termografica </p>
-                            <p className='px-3'> Detección de puntos calientes en transformadores, tableros, interruptores</p>
-                    </div>
-        </div>
         <div className='md:flex'>
                     <div className='md:w-1/3 text-center mt-10'>
                             <Image src='/img/empalmadora.png' width={ 320 }  height={ 450 } alt="Empalmadora de Fibra" className=' mx-auto' />
@@ -76,6 +57,22 @@ const HerramientasEquipo = () => {
                     <div className='md:w-1/3 text-center mt-10'>
                             <Image src='/img/guiaCobra.png' width={ 320 }  height={ 450 } alt="Guia Cobra" className=' mx-auto' />
                             <p className=' text-blue-900 font-semibold text-5xl' > Guia Cobra </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-5'>
+                            <Image src='/img/megguer.png' width={ 235 }  height={ 450 } alt="megguer" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Megger </p>
+                    </div>
+        </div>
+        <div className='md:flex'>
+                    
+                    <div className='md:w-1/3 text-center mb-10'>
+                            <Image src='/img/terrometro.png' width={ 210 }  height={ 450 } alt="terrometro" className='mx-auto'/>
+                            <p className=' text-blue-900 font-semibold text-5xl' > Megguer de resistencia a Tierra </p>
+                    </div>
+
+                    <div className='md:w-1/3 text-center mb-10'>
+                            <Image src='/img/camaratermo.png' width={ 190 }  height={ 450 } alt="camara termografica" className='mx-auto'/>
+                            <p className=' text-blue-900 font-semibold text-5xl' > Cámara Termografica </p>
                     </div>
         </div>
     </Layout>
