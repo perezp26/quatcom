@@ -25,7 +25,59 @@ const HerramientasEquipo = () => {
                             <p className=' text-blue-900 font-semibold text-5xl' > Cámara Termografica </p>
                             <p className='px-3'> Detección de puntos calientes en transformadores, tableros, interruptores</p>
                     </div>
-          </div>
+        </div>
+        <div className='md:flex'>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/empalmadora.png' width={ 320 }  height={ 450 } alt="Empalmadora de Fibra" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Empalmadora de Fibra Optica </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/OTDR.png' width={ 320 }  height={ 450 } alt="OTDR" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > OTDR </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/medidorPotencia.png' width={ 320 }  height={ 450 } alt="Medidor de Potencia" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Medidor de Potencia y Generador de Luz </p>
+                    </div>
+        </div>
+        <div className='md:flex'>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/cortadora.png' width={ 320 }  height={ 450 } alt="Cortadora Transversal" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Cortadora Transvesal de Precisión </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/pinza.png' width={ 320 }  height={ 450 } alt="Pinza" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Pinza Peladora de Fibra Optica </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/cortadoraTubo.png' width={ 320 }  height={ 450 } alt="Cortadora de Tubo" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Cortadora de Tubo Holgado </p>
+                    </div>
+        </div>
+        <div className='md:flex'>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/empalmadoraCobre.png' width={ 320 }  height={ 450 } alt="Empaladora Cobre 25 pares" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Empalmadora para Cobre de 25 pares </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/empalmadoraCobre10.png' width={ 320 }  height={ 450 } alt="Empalmadora Cobre 10 pares" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Empalmadora para Cobre de 10 pares </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/microtelefono.png' width={ 320 }  height={ 450 } alt="Microtelefono" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Microteléfono </p>
+                    </div>
+        </div>
+        <div className='md:flex mb-16'>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/lapizInductivo.png' width={ 320 }  height={ 450 } alt="Generador de tono y lapiz inductivo" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Generador de Tono y Lapiz Inductivo </p>
+                    </div>
+                    <div className='md:w-1/3 text-center mt-10'>
+                            <Image src='/img/guiaCobra.png' width={ 320 }  height={ 450 } alt="Guia Cobra" className=' mx-auto' />
+                            <p className=' text-blue-900 font-semibold text-5xl' > Guia Cobra </p>
+                    </div>
+        </div>
     </Layout>
   )
 }

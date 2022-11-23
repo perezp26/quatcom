@@ -30,10 +30,6 @@ const Redes = () => {
                           </div>
                           <div className='flex md:justify-start md:mb-5 mt-2'>
                                 <i className="fa-sharp fa-solid fa-network-wired text-xl pt-3 pr-2"></i>
-                                <p>Instalación, equipamiento e integración de cuartos de telecomunicaciones.</p>
-                          </div>
-                          <div className='flex md:justify-start md:mb-5 mt-2'>
-                                <i className="fa-sharp fa-solid fa-network-wired text-xl pt-3 pr-2"></i>
                                 <p>Instalación y configuración de conmutadores.</p>
                           </div>
                           <div className='flex md:justify-start md:mb-5 mt-2'>

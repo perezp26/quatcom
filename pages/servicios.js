@@ -36,6 +36,19 @@ const Servicios = () => {
                         </div>
                   </div>
                 </div>
+
+                <div className='contenedor md:flex'>
+                  <div className=' md:w-1/3'>
+                              <Image  src='/img/obracivil.jpg' 
+                                  width={ 500 } 
+                                  height= {750} 
+                                  className=' p-12'
+                                  alt='Obra Civil' />
+                  </div>
+                  <div className=' md:w-2/3'>
+                      <Obracivil />
+                  </div>
+                </div>
                
                 <div className='contenedor md:flex'>
                   <div className=' md:w-1/3'>
@@ -62,19 +75,6 @@ const Servicios = () => {
                         <div className=' md:w-2/3 py-10'>
                         <Domotica />
                         </div>
-                  </div>
-                </div>
-
-                <div className='contenedor md:flex'>
-                  <div className=' md:w-1/3'>
-                              <Image  src='/img/obracivil.jpg' 
-                                  width={ 500 } 
-                                  height= {750} 
-                                  className=' p-12'
-                                  alt='Obra Civil' />
-                  </div>
-                  <div className=' md:w-2/3'>
-                      <Obracivil />
                   </div>
                 </div>
 
