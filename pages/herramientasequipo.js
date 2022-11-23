@@ -67,7 +67,7 @@ const HerramientasEquipo = () => {
                     
                     <div className='md:w-1/3 text-center mb-10'>
                             <Image src='/img/terrometro.png' width={ 210 }  height={ 450 } alt="terrometro" className='mx-auto'/>
-                            <p className=' text-blue-900 font-semibold text-5xl' > Megguer de resistencia a Tierra </p>
+                            <p className=' text-blue-900 font-semibold text-5xl' > Megger de resistencia a Tierra </p>
                     </div>
 
                     <div className='md:w-1/3 text-center mb-10'>
